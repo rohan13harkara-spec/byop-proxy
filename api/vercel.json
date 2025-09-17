@@ -1,7 +1,7 @@
-# Folder: byop-proxy
-# Create these files with the exact names and contents.
+Folder: byop-proxy
+Create these files with the exact names and contents.
 
-# 1) package.json
+1) package.json
 {
   "name": "byop-proxy",
   "version": "1.0.0",
@@ -10,7 +10,7 @@
   "dependencies": {}
 }
 
-# 2) vercel.json  (optional, but keeps things tidy)
+2) vercel.json  (optional, but keeps things tidy)
 {
   "version": 2,
   "functions": {
@@ -18,7 +18,7 @@
   }
 }
 
-# 3) api/places-nearby.ts
+3) api/places-nearby.ts
 import type { VercelRequest, VercelResponse } from 'vercel';
 
 /**
@@ -63,7 +63,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
   }
 }
 
-# 4) README.txt  (quick instructions)
+4) README.txt  (quick instructions)
 1) Create a folder named byop-proxy on your computer.
 2) Inside it, create a folder named api.
 3) Make three files: package.json, vercel.json, api/places-nearby.ts. Copy content from this canvas.
